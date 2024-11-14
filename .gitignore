@@ -2,3 +2,4 @@ venv/
 output/
 logs/
 .idea/
+Banks.db
