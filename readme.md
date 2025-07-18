@@ -21,7 +21,7 @@ This project is designed to automate the extraction, transformation, and storage
 
 ## Project Files
 
-- **`main.py`**: Main script containing all functions and execution flow.
+- **`scripts/banks_project.py`**: Main script containing all functions and execution flow.
 - **`exchange_rate.csv`**: CSV file with exchange rates for GBP, EUR, and INR.
 - **`Banks.db`**: SQLite database for storing the bank data.
 - **`output/Largest_banks_data.csv`**: Output CSV file containing the transformed data.
@@ -58,5 +58,5 @@ Executes SQL queries on the database for analysis and reporting.
 
 1. Clone this repository.
 2. Place the `exchange_rate.csv` file in the `assets` directory with exchange rates for `GBP`, `EUR`, and `INR`.
-3. Run `main.py` to start the automated data extraction, transformation, and loading process.
+3. Run `scripts/banks_project.py` to start the automated data extraction, transformation, and loading process.
 4. Output data will be saved in `output/Largest_banks_data.csv` and the SQLite database `Banks.db`.
